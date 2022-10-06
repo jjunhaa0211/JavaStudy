@@ -11,15 +11,19 @@ public class Number1 {
 
     }
 
-    static class Face {
-        void basic() {
+    interface HelloFace {
+        void basic();
+    }
+
+    static class Face implements HelloFace {
+        public void basic() {
             System.out.println("😀");
         }
     }
 
     static class BadFace extends Face {
 
-        void basic() {
+        public void basic() {
             System.out.println("🤬");
         }
 
