@@ -10,21 +10,21 @@ public class Number1 {
         badFace.basic();
 
     }
-}
 
-class Face {
-    void basic() {
-        System.out.println("😀");
-    }
-}
-
-class BadFace extends Face {
-
-    void basic() {
-        System.out.println("🤬");
+    static class Face {
+        void basic() {
+            System.out.println("😀");
+        }
     }
 
-    void bad() {
-        System.out.println("🥵");
+    static class BadFace extends Face {
+
+        void basic() {
+            System.out.println("🤬");
+        }
+
+        void bad() {
+            System.out.println("🥵");
+        }
     }
 }
