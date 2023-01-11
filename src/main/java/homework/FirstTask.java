@@ -13,16 +13,16 @@ public class FirstTask {
         //false
         //true
 
-        int a = 15;
+        String a = "dsfsdf";
 
         printClass(a);
     }
 
     //2번 문제
-    public static void printClass(int a) {
+    public static void printClass(String a) {
         //어떤 객체를 파라미터로 넣든, 해당 객체의 클래스 이름과 객체의 내용을 출력하는 메서드를 만들어야 합니다. 아래의 함수를 조건에 맞게 완전히 구현해주세요.
-        System.out.println(a);
-        System.out.println(String.valueOf(a));
+        System.out.println(a.getClass().getName());
+        System.out.println(a.getClass());
     }
 
     //3번째
