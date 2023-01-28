@@ -1,4 +1,4 @@
-package homework.ThisIsJava;
+package homework.ThisIsJava.VariableExample;
 
 public class BooleanExample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package homework.ThisIsJava;
+package homework.ThisIsJava.VariableExample;
 
 public class IntExample {
     public static void main(String[] args) {
