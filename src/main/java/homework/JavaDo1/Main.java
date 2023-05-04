@@ -1,5 +1,10 @@
 package homework;
 
+import homework.JavaDo1.Customer;
+import homework.JavaDo1.Department;
+import homework.JavaDo1.Employee;
+import homework.JavaDo1.Store;
+
 public class Main {
     public static void main(String[] args) {
         Customer customer1 = new Customer("박준하");

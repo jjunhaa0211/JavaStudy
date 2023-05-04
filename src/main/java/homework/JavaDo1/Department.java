@@ -18,21 +18,21 @@ class Person {
 
 // Customer 클래스: 고객 클래스
 class Customer extends Person {
-    private int sum; // 합계
+    private int allMoney; //
 
     public Customer(String name) { // 생성자
         super(name);
     }
 
     public int buy(int price) { // 상품 구매 메소드
-        sum = sum + price;
-        return sum;
+        allMoney = allMoney + price;
+        return allMoney;
     }
 
     // 메소드 오버로딩
     public int buy(int price, int quantity) {
-        sum = sum + price * quantity;
-        return sum;
+        allMoney = allMoney + price * quantity;
+        return allMoney;
     }
 }
 
@@ -110,5 +110,4 @@ class Store {
     public void addDepartment(Department department) {
         departments.add(department);
     }
-
 }
